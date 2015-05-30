@@ -19,13 +19,19 @@ In order to fulfill the following goals:
 
 The script assumes that the unzipped folder called 'UCI HAR Dataset', which contains the relevant data and txt files, is accessible from the working directory.
 
-Additionally, the script utilizes the 'dplyr' and 'data.table' packages.
+Additionally, the script utilizes the 'dplyr' and 'data.table' packages.  You can install these prior to running the script by using:
+
+*install.packages('dplyr')*
+*library(dplyr)*
+
+*install.packages('data.table')*
+*library(data.table)*
 
 To run the script from the R command line:
 
-#source("run_analysis.R")
+*source("run_analysis.R")*
 
-#run("test", "train")
+*run("test", "train")*
 
 ==================================================================
 
