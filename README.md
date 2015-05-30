@@ -2,7 +2,6 @@
 
 ==================================================================
 Hao Wang
-hao.wang08@gmail.com
 about.me/haow
 ==================================================================
 
@@ -21,6 +20,11 @@ In order to fulfill the following goals:
 The script assumes that the unzipped folder called 'UCI HAR Dataset', which contains the relevant data and txt files, is accessible from the working directory.
 
 Additionally, the script utilizes the 'dplyr' and 'data.table' packages.
+
+To run the script from the R command line:
+
+source("run_analysis.R")
+run("test", "train")
 
 ==================================================================
 
