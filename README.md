@@ -23,8 +23,9 @@ Additionally, the script utilizes the 'dplyr' and 'data.table' packages.
 
 To run the script from the R command line:
 
-source("run_analysis.R")
-run("test", "train")
+#source("run_analysis.R")
+
+#run("test", "train")
 
 ==================================================================
 
